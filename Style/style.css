@@ -73,8 +73,18 @@ body {
     font-weight: 700;
     letter-spacing: 0.03em;
     font-size: 26px;
-    line-height: 0.8;
+    line-height: 1.19;
     color: var(--logo-color-dark);
+}
+
+.logo-black {
+    color: var(--logo-color-dark);
+    font-family: 'Raleway';
+    font-style: inherit;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .nav-link {
@@ -144,30 +154,36 @@ body {
 
 .feature-subtitle {
     font-weight: 700;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--main-color-dark);
 }
 
 .feature-text {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
     color: var(--secondary-color);
 }
 
 /* Вид деятельности */
 
 .work {
-    background-color: var(--color-section-work);
+    background-color: var(--main-light-color);
 }
 
 /* Команда */
 
 .team {
-    background-color: var(--color-section-team);
+    background-color: var(--color-section-team-upMenuPortfolio);
+}
+
+.team-item {
+    background-color: var(--main-light-color);
 }
 
 .team-name {
@@ -191,10 +207,10 @@ body {
 .logo-white {
     color: var(--main-light-color);
     font-family: 'Raleway';
-    font-style: normal;
+    font-style: inherit;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -241,7 +257,7 @@ body {
     line-height: 1.63;
     letter-spacing: 0.03em;
     color: var(--main-color-dark);
-    background-color: var(--color-section-team);
+    background-color: var(--color-section-team-upMenuPortfolio);
     border-radius: 4px;
 }
 
